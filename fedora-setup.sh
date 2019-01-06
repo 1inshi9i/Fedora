@@ -1,4 +1,4 @@
-sudo cat /etc/dnf/dnf.conf
+sudo gedit /etc/dnf/dnf.conf
 fastestmirror=true
 deltarpm=true
 #install commen repositories below
@@ -15,3 +15,9 @@ sudo dnf update -y
 sudo dnf install gnome-tweak-tool
 sudo dnf install vlc
 sudo dnf install virtualbox
+
+rpm -qa 
+#列出所有已经安装的包
+
+dnf remove 包名字
+#拆卸一个包
