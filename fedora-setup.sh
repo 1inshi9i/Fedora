@@ -11,6 +11,8 @@ sudo dnf repository-packages rpmfusion-nonfree-nvidia-driver info
 #update Fedora
 sudo dnf update -y
 
+1760x990
+/etc/X11/xorg.conf
 #install commen apps below
 sudo dnf install gnome-tweak-tool
 sudo dnf install vlc
