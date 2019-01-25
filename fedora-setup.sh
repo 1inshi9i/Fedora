@@ -16,7 +16,7 @@ sudo dnf update -y
 #install commen apps below
 sudo dnf install gnome-tweak-tool
 sudo dnf install vlc
-sudo dnf install virtualbox
+sudo dnf install VirtualBox
 
 rpm -qa 
 #列出所有已经安装的包
